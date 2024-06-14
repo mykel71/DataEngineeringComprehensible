@@ -4,7 +4,7 @@
    To process the data first we need to find a way to store them.
    Where do we store such huge amount of data?
        Can we store and process 1 TB of data if I have storage capacity of 500 GB in single machine? No
-       But same 1 TB of can be stored on 10 machines(100 GB each) and process subsequently. This is nothing but distributed system.
+       But same 1 TB of data can be stored on 10 machines(100 GB each) and process subsequently. This is nothing but distributed system.
 
        Before Big Data Era -  It is storage and just process in a single machine/server
        After Big Data Era  -  It is distributed storage and distributed processing in cluster(group of machine)
@@ -39,3 +39,6 @@ CPU Quad core (Compute)
 
 Monolithic Architecture -  Vertical Scaling(No True Scaling)
 Distributed Architecture - Horizontal Scaling(True scaling)
+
+
+Check this [Article]('https://www.datacrafts.club/post/big-data-processing-approaches-monolithic-vs-distributed')

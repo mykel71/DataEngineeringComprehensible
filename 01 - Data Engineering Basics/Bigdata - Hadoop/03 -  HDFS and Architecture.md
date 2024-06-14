@@ -20,6 +20,6 @@ Replication - Copying the individual blocks into different racks.
 
 Racks - Group of machines in same network or geography
 
-Client(Laptop) submits a job/ Request --> Requests goes to Namenode --> Namenode sends back metadata info --> Client reads data from blocks of data node based on metadata
+Client(Laptop) submits a job / Request --> Requests goes to Namenode --> Namenode sends back metadata info --> Client reads data from blocks of data node based on metadata
 
 
