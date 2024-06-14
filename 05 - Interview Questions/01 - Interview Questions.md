@@ -24,5 +24,22 @@
 24. What are the challenges you face in spark?
 25. How spark is better than Hive?
 26. How to enforce schema on a data frame?
-27. What is difference between reduceByKey & groupByKey?
-28. How do we submit jar files in Spark?
+#### 27. What is difference between reduceByKey & groupByKey?
+ - Spark groupByKey() and reduceByKey() are transformation operations on key-value RDDs, but they differ in how they combine the values corresponding to each key.
+
+ Spark RDD groupByKey() is a transformation operation on a key-value RDD (Resilient Distributed Dataset) that groups the values corresponding to each key in the RDD. It returns a new RDD where each key is associated with a sequence of its corresponding values.
+
+// Syntax of groupByKey()
+
+def groupByKey(): RDD[(K, Iterable[V])]
+
+
+Spark RDD reduceByKey() is another transformation operation on a key-value RDD (Resilient Distributed Dataset) that groups the values corresponding to each key in the RDD and then applies a reduction function to the values of each group. It returns a new RDD where each key is associated with a single reduced value.
+
+// Syntax of reduceByKey()
+def reduceByKey(func: (V, V) => V): RDD[(K, V)]
+
+In Spark, both groupByKey and reduceByKey are wide-transformation operations on key-value RDDs resulting in data shuffling, but they differ in how they combine the values corresponding to each key.
+
+
+#### 28. How do we submit jar files in Spark?
