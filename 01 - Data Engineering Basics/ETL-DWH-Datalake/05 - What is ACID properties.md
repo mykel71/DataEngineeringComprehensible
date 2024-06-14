@@ -11,4 +11,4 @@ The ACID database transaction model ensures that a performed transaction is alwa
 
  ACID guarantees will be ensured by the most Relational Databases such as MySQL , PostgreSQL
  
- NoSQL databases not follows ACID instead BASE transaction model which leads eventual consistency. Eg: Cassandra, MongoDB
+ NoSQL databases do not follow ACID instead BASE transaction model which leads eventual consistency. Eg: Cassandra, MongoDB
