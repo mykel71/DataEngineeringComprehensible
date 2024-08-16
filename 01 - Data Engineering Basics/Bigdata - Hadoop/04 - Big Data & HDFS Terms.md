@@ -73,7 +73,7 @@ Name Node High Availability:
      
      Means 5 Nodes : (5-1)/2 ; 2 nodes can be failure
      
-     In latest version of hadoop, we have can more than one name node.
+     In latest version of hadoop, we can have more than one name node.
      
 Name node Scalability:
 
