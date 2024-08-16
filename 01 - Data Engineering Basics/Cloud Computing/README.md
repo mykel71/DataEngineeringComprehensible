@@ -42,7 +42,7 @@ Hybrid cloud computing is a combination of the public and private models. The tw
 ### USES OF CLOUD COMPUTING
 Companies and individuals use cloud computing in a variety of unique and exciting ways. The Cloud Infrastructure Report 2021 from cloud management company CloudCheckr revealed close to 60 percent of the 304 IT and business stakeholders surveyed said they had more than half their infrastructure already in the cloud.
 
-The most prominent companies hosting the cloud are major players like Amazon (Amazon Web Services), Microsoft (Azure), Apple (iCloud) and Google (Google Drive), but there’s also a bunch of other players, large and small.
+The most prominent companies hosting the cloud are major players like Amazon (Amazon Web Services), Microsoft (Azure) and Google (Google Cloud Platform), but there’s also a bunch of other players, large and small.
 
 Among the most common applications of cloud computing people might encounter both at work and in their everyday lives are cloud-based collaboration tools like Microsoft OneDrive and Dropbox, movie and music streaming and backup storage for iPhones and other mobile devices.
 
