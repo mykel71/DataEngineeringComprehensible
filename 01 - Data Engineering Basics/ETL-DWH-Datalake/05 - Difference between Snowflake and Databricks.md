@@ -15,7 +15,7 @@ The storage they use is called a data lakehouse, which is similar to a data lake
 This is basically a data lake, but you can run SQL on it, which has become quite popular lately.
 
 You only need to worry about loading your data into snowflake if you have an existing ETL tool like fivetran, talend, tibco, etc.
-All of your database infrastructure (paritioning, scalability, indexes, etc.) is being handled for you.
+All of your database infrastructure (partitioning, scalability, indexes, etc.) is being handled for you.
 
 Consider databricks if you don't have an existing ETL tool and your data requires intensive cleaning and has unpredictable data sources and schemas.
 Take advantage of the schema on read technique to scale your data.
