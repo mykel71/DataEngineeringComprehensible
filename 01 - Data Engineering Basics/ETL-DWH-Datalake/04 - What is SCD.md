@@ -64,5 +64,3 @@ The ‘Hybrid’ method simply takes SCD types 1, 2 and 3 and applies all techni
  
 This gives you the ability to provide an element of change comparison without additional calculation, whilst still maintaining a full, detailed history of all changes in the system.
 Personally, if this requirement came up, I would avoid the data redundancy of this extra column and simply calculate the current value using the “LAST_VALUE()” window function at run-time. Although this depends on your priorities between data storage and direct querying performance.
-
-
