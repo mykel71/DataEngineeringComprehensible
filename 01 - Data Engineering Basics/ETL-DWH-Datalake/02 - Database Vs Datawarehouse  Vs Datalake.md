@@ -145,3 +145,8 @@ Atlas Data Lake also supports automatic online archival of data from Atlas. This
 #### Summary
 Databases, data warehouses, and data lakes each have their own purpose. Nearly every modern application will require a database to store the current application data. Organizations that want to analyze their applications' current and historical data may choose to complement their databases with a data warehouse, a data lake, or both.
 Data warehouses and databases both act as data storage and management tools. However, there are a few key differences to acknowledge. First, data warehouses have analytical capabilities. They enable companies to make analytical queries that track and record certain variables for business intelligence. In contrast, a database is a simple collection of data in one place. Databases’ main purpose is to store data securely and allow users to access it easily.
+
+![image](https://user-images.githubusercontent.com/42135673/232546049-860a7448-266e-4658-ab83-105f1e60ce56.png)
+
+![image](https://user-images.githubusercontent.com/42135673/232546467-8e95ab8a-0d39-4ca1-b2a1-81c3a54b38a8.png)
+
